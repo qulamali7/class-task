@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 20px;
+}
+.box .btn {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-size: 25px;
+  font-weight: 600;
+  transition: 0.5s all ease;
+}
+.box .btn:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.box .content {
+  width: 250px;
+  height: 300px;
+  filter: blur(5px);
+}
+.box .content p {
+  font-size: 20px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

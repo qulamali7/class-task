@@ -1,0 +1,37 @@
+@import "./reset";
+
+body{
+    display: flex;
+   justify-content: center;
+    gap: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+    .btn{
+        background-color: white;
+        color: green;
+        border: 1px solid green;
+        border-radius: 10px;
+        padding: 10px 50px;
+        font-size: 25px;
+        font-weight: 600;
+        transition: 0.5s all ease;
+        &:hover{
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    .content{
+        width: 250px;
+        height: 300px;
+        filter: blur(5px);
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.tab {
+  margin: 30px 30px 0 30px;
+  border: 1px solid grey;
+  padding: 20px;
+}
+.tab .btn {
+  background-color: grey;
+  color: white;
+  justify-content: start;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 20px;
+  margin-left: 20px;
+  transition: 0.5s all ease;
+}
+.tab .btn:hover {
+  background-color: #212121;
+  color: white;
+}
+
+.city {
+  display: none;
+  padding: 10px 15px;
+  border: 1px solid grey;
+  border-top: none;
+  margin: 0px 30px 30px 30px;
+}/*# sourceMappingURL=style.css.map */
